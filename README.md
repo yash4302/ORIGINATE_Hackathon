@@ -1,27 +1,37 @@
-# //🚀ENTER YOUR PROJECT TITLE HERE🚀//
+# SMART PILL REMINDER
 
 ```bash
-THIS BLOCK IS MEANT TO EXPLAIN THE FILE STRUCTURE ONLY REMOVE ME INITAL COMMIT!
-\
 ├───docs : (optional) Here you can put your documentation.
-├───src  : Put your source code here.
-└───test : (optional) Your testing scripts goes here.
+└───src  : Put your source code here.
 ```
-
-Some introduction to your solution/project.
 
 Team Members:
 
-- [Member#1's Github](https://github.com/{team_member_username})
-- [Member#2's Github](https://github.com/{team_member_username})
+- [Yash Kavaiya](https://github.com/yash4302)
+- [Yug Shah](https://github.com/YugShah-7144)
 
 ## Problem statement 🐾
 
-Give a short problem statement that describes the problem you want to solve.
+The application of Smart Medicine Reminder is very wide and can be used by patients at home, doctors at hospitals, and at many other places. When it comes to reminding, there can be many ways to remind it:  
+
+1. Show it on a display 
+2. Send notification on email or Phone
+3. Using mobile apps
+4. Buzz alarm
+5. Remind for next medicine time while reminding current time
 
 ## Tech Stack 📚
 
-Provide a list of tools and technologies used to build your project.
+1. Arduino Uno (We can use other Arduino boards also, like Pro mini, Nano)
+2. RTC DS3231 module (Real time clock/ Clock module)
+*. GSM Module (Optional)
+3. 16x2 LCD Display
+4. Buzzer
+5. LED(any color)
+6. Breadboard
+7. Push Buttons or Touch Sensor
+8. Potentiometer
+9. Resistors
 
 ## Solution 💡
 
@@ -37,26 +47,21 @@ Provide images or proof of work here. By proof of work we mean  you can provide:
 - a link to a hosted website that shows the result of your solution.
 - a link to screen recording of your solution.
 
-## Other optional sections you want to write about 📝
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut bibendum lectus vel urna auctor elementum. Mauris maximus feugiat odio sit amet eleifend. Suspendisse a justo purus.
-
 ## File structure 📂
 
 ```bash
-   run `tree . /f`(for windows) command in the parent to print the file structure, and paste it here.
-   for linux, run `tree . ` and paste it here.
-
-   E.g.
-    /   .gitignore
-    │   README.md
-    │
-    ├───src
-    │       README.md
-    │
-    └───test
-            README.md
-
+│   .gitignore
+│   README.md
+│
+├───docs
+│       README.md
+│
+├───src
+│   │   README.md
+│   │
+│   └───SPR
+│           SPR.ino
+        
 ```
 
 ## Installation & Usage 📦
